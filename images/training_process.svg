@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 800 600"
+     fill="none"
+     stroke="#000"
+     stroke-width="3"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+  <!-- ПАЛИТРА -->
+  <defs>
+    <style>
+      .skin { fill:#FFE9D6; }
+      .shirt-yellow { fill:#F6D66E; }
+      .shirt-blue   { fill:#7CC6F3; }
+      .shirt-purple { fill:#C2B4FF; }
+      .pant-light   { fill:#FFFFFF; }
+      .accent       { fill:#A0E0C2; }
+      .boardFill    { fill:#EEF3FF; }
+    </style>
+  </defs>
+
+  <!-- ДОСКА/ЭКРАН -->
+  <rect x="50" y="60" width="360" height="220" rx="12" class="boardFill"/>
+  <polyline points="90,220 180,140 240,180 320,100" class="accent" stroke-width="0" />
+  <polyline points="90,220 180,140 240,180 320,100" stroke="#7C9AFF" stroke-width="6" fill="none"/>
+  <polygon points="320,100 312,118 338,110" fill="#7C9AFF"/>
+
+  <!-- ИНСТРУКТОР -->
+  <circle cx="440" cy="140" r="22" class="skin"/>
+  <path d="M430 162 h20 v60 h-20 z" class="shirt-yellow"/>
+  <path d="M430 180 l-30 20" class="shirt-yellow"/>
+  <line x1="400" y1="200" x2="100" y2="150" />
+  <path d="M430 222 l-10 70" class="pant-light"/>
+  <path d="M450 222 l10 70"  class="pant-light"/>
+  <path d="M420 292 h-18 v10 h25z" fill="#000"/>
+  <path d="M468 292 h-18 v10 h25z" fill="#000"/>
+
+  <!-- СОТРУДНИК 1 -->
+  <rect x="110" y="350" width="220" height="14" class="pant-light"/>
+  <line x1="140" y1="363" x2="140" y2="420"/>
+  <line x1="300" y1="363" x2="300" y2="420"/>
+  <rect x="150" y="300" width="90" height="55" rx="4" class="accent"/>
+  <line x1="150" y1="300" x2="195" y2="260"/>
+  <circle cx="200" cy="270" r="18" class="skin"/>
+  <path d="M185 288 h30 v60 h-30 z" class="shirt-blue"/>
+  <path d="M185 348 l-8 60" class="pant-light"/>
+  <path d="M215 348 l8 60"  class="pant-light"/>
+  <path d="M170 408 h-15 v10 h22z" fill="#000"/>
+  <path d="M223 408 h-15 v10 h22z" fill="#000"/>
+
+  <!-- СОТРУДНИК 2 -->
+  <rect x="430" y="350" width="220" height="14" class="pant-light"/>
+  <line x1="460" y1="363" x2="460" y2="420"/>
+  <line x1="620" y1="363" x2="620" y2="420"/>
+  <rect x="510" y="300" width="90" height="55" rx="4" class="accent"/>
+  <line x1="510" y1="300" x2="555" y2="260"/>
+  <circle cx="565" cy="270" r="18" class="skin"/>
+  <path d="M550 288 h30 v60 h-30 z" class="shirt-purple"/>
+  <path d="M550 348 l-8 60" class="pant-light"/>
+  <path d="M580 348 l8 60"  class="pant-light"/>
+  <path d="M535 408 h-15 v10 h22z" fill="#000"/>
+  <path d="M588 408 h-15 v10 h22z" fill="#000"/>
+
+  <!-- ИКОНКИ СВЕРХУ -->
+  <g transform="translate(680,90) scale(1.2)">
+    <circle cx="0" cy="0" r="18" stroke="#7C9AFF" stroke-width="3" fill="none"/>
+    <line x1="0" y1="-25" x2="0" y2="-18"/>
+    <line x1="0" y1="25"  x2="0" y2="18"/>
+    <line x1="-25" y1="0" x2="-18" y2="0"/>
+    <line x1="25"  y1="0" x2="18"  y2="0"/>
+    <line x1="17"  y1="17" x2="12" y2="12"/>
+    <line x1="-17" y1="17" x2="-12" y2="12"/>
+    <line x1="17"  y1="-17" x2="12" y2="-12"/>
+    <line x1="-17" y1="-17" x2="-12" y2="-12"/>
+  </g>
+
+  <g transform="translate(620,160)">
+    <circle cx="0" cy="0" r="18" fill="#FEE572" stroke="none"/>
+    <rect x="-6" y="18" width="12" height="10" fill="#C4B08C" stroke="none"/>
+    <line x1="-10" y1="30" x2="10" y2="30"/>
+  </g>
+
+  <rect x="700" y="200" width="60" height="40" fill="#FFFFFF" stroke="#000"/>
+  <line x1="730" y1="200" x2="730" y2="240"/>
+  <line x1="700" y1="220" x2="760" y2="220"/>
+
+  <path d="M650 300 a40 40 0 1 1 -28 68" stroke="#A0E0C2" stroke-width="8" fill="none"/>
+  <polygon points="615,365 640,370 633,345" fill="#A0E0C2"/>
+
+</svg>
