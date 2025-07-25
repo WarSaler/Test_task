@@ -642,7 +642,7 @@ body {
 
 .modal-close {
     position: absolute;
-    top: calc(2% - 22px);
+    top: calc(2% - 28px);
     right: calc((100% - 90%) / 2 - 22px);
     background: rgba(255, 255, 255, 0.95);
     border: 2px solid rgba(99, 102, 241, 0.2);
@@ -1064,7 +1064,7 @@ body {
     }
     
     .modal-close {
-        top: calc(5% - 19px);
+        top: calc(5% - 24px);
         right: calc((100% - 95%) / 2 - 19px);
         width: 38px;
         height: 38px;
