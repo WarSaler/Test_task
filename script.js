@@ -605,3 +605,30 @@ window.addEventListener('click', function(event) {
         }
     });
 });
+
+// Scroll to Top functionality
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
+// Show/hide scroll to top button based on scroll position
+window.addEventListener('scroll', function() {
+    const scrollToTopBtn = document.getElementById('scrollToTop');
+    if (window.pageYOffset > 300) {
+        scrollToTopBtn.classList.add('visible');
+    } else {
+        scrollToTopBtn.classList.remove('visible');
+    }
+});
+
+// Initialize scroll to top button on page load
+document.addEventListener('DOMContentLoaded', function() {
+    const scrollToTopBtn = document.getElementById('scrollToTop');
+    if (scrollToTopBtn) {
+        // Initially hide the button
+        scrollToTopBtn.classList.remove('visible');
+    }
+});
