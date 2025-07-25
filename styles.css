@@ -570,7 +570,7 @@ body {
     right: 0;
     bottom: 0;
     background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(139, 92, 246, 0.15));
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
@@ -580,7 +580,8 @@ body {
 }
 
 .project-card:hover .project-overlay {
-    opacity: 1;
+    display: none;
+    opacity: 0;
 }
 
 .project-link {
